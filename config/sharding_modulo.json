@@ -1,0 +1,8 @@
+{
+  "sharding": {
+    "strategy": "modulo",
+    "modulo": {
+      "num_shards": 3
+    }
+  }
+}

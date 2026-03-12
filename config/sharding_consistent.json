@@ -1,0 +1,10 @@
+{
+  "sharding": {
+    "strategy": "consistent_hashing",
+    "num_shards": 4,
+    "consistent_hashing": {
+      "virtual_nodes_per_server": 3,
+      "nodes": ["shard0", "shard1", "shard2"]
+    }
+  }
+}
